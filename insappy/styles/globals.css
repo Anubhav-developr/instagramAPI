@@ -2,15 +2,35 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+
+
+
 
 * {
   box-sizing: border-box;
 }
+
+
+.mid-line {
+background-image: url("../images/socialM.png"),url("../images/socialM2.png"),url("../images/socialM4.png"),url("../images/socialM6.png"),url("../images/socialM6.png");
+background-repeat: no-repeat;
+background-size: 25vw 45vh,23vw 40vh,10vw 10vh,10vw 4vh,10vw 4vh;
+background-position: top left,top right,82vw 34vh,20vw 62vh,70vw 62vh;
+background-color: aqua;
+}
+
+.imageClass {
+  margin-top: 1.5em;
+  color: blueviolet;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.imageClass:hover{
+  box-shadow: 3px 4px 5px grey;
+}
+
+
