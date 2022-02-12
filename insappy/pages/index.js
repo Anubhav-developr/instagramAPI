@@ -36,7 +36,7 @@ function MainPage() {
     <div style={container_style}>
       <b>
         <div style={centering_style} className="mid-line"><div style={Title_div_margin}><span style={capital_letter}>T</span>his is starter page for the <span style={capital_letterB}>face</span>book developer api adept..</div>
-        <div><img src="/iconA.png" class="imageClass"></img></div> </div>
+        <div><a href="/form"><img src="/iconA.png" class="imageClass"></img></a></div> </div>
       </b>
      
     </div>

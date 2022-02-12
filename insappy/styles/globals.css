@@ -21,6 +21,13 @@ background-size: 25vw 45vh,23vw 40vh,10vw 10vh,10vw 4vh,10vw 4vh;
 background-position: top left,top right,82vw 34vh,20vw 62vh,70vw 62vh;
 background-color: aqua;
 }
+.mid-userInputData {
+  background-image: url("../images/socialM2.png"),url("../images/socialM4.png");
+  background-repeat: no-repeat;
+  background-size: 23vw 40vh,10vw 10vh,10vw 4vh,10vw 4vh;
+  background-position: top right,82vw 34vh;
+  background-color: aqua;
+}
 
 .imageClass {
   margin-top: 1.5em;
@@ -33,4 +40,38 @@ background-color: aqua;
   box-shadow: 3px 4px 5px grey;
 }
 
+.form-input:focus{
+transform: scaleX(1.5) scaleY(1.2);
+transition: transform 0.4s ease-out;
 
+}
+.form-input {
+  transition: transform 0.4s ease-in;
+  background-color:transparent;
+  width:16.3em;
+  height:1.8em;
+}
+
+.button-div button {
+  padding:1em 2em;
+  font-family:inherit;
+  background-color:rgb(211, 209, 209);
+  color: #576666;
+  font-weight:bold;
+  box-shadow: 2px 2px 2px transparent;
+  cursor:pointer;
+}
+
+.button-div button:hover {
+
+color:rgb(245, 174, 41);
+}
+
+.button-div a button {
+
+}
+
+
+.link-underline-remove {
+  text-decoration : none;
+}
